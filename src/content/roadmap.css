@@ -1,0 +1,30 @@
+.roadmap {
+    display: flex;
+    width: 800px;
+    margin: 20px auto;
+    flex-direction: column;
+    background: rgba(251, 238, 193, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px 20px 0 20px;
+}
+
+.roadmap .title {
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.roadmap .text {
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.roadmap .map {
+    padding: 10px 10px 20px 20px;
+    margin: 0 auto;
+}
