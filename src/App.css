@@ -4,4 +4,5 @@
   justify-content: space-between;
   background: linear-gradient(180deg, #659DBD 0%, #BC986A 100%);
   font-family: 'Rubik', sans-serif;
+  min-height: 100vh;
 }

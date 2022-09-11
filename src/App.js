@@ -1,21 +1,19 @@
 import "./App.css";
-import { Header } from "./header/header";
-import { Footer } from "./footer/footer";
-import { useSelector } from "react-redux";
+import { BrowserRouter } from "react-router-dom";
+import AppRouter from "./components/AppRouter/AppRouter";
 
 function App() {
-  const content = useSelector((state) => state.page);
   return (
     <div className="App">
       <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
       <link
         href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
         rel="stylesheet"
       />
-      <Header />
-      {content}
-      <Footer />
+      <BrowserRouter>
+        <AppRouter />
+      </BrowserRouter>
     </div>
   );
 }

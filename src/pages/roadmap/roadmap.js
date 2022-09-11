@@ -1,6 +1,6 @@
 import "./roadmap.css";
-import map from "../img/map.jpg";
-import dom from "../img/dom.jpg";
+import map from "../../img/map.jpg";
+import dom from "../../img/dom.jpg";
 
 export const Roadmap = () => {
   return (

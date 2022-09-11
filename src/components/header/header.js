@@ -1,5 +1,6 @@
 import "./header.css";
-import avatar from "../img/avatar.png";
+import avatar from "../../img/avatar.png";
+import exit from "../../img/exit.png";
 import { useDispatch } from "react-redux";
 
 export const Header = () => {
@@ -18,6 +19,7 @@ export const Header = () => {
         <div className="user">
           <img src={avatar} width="30px" height="30px" />
           <span>Имя пользователя</span>
+          <img src={exit} width="30px" height="30px" />
         </div>
       </div>
       <div className="lower_header">
